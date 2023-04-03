@@ -16,7 +16,7 @@ class HoroscopeList extends StatelessWidget {
         title: const Text("Burç listesi"),
         centerTitle: true,
         foregroundColor: Colors.white,
-        titleTextStyle: TextStyle(fontSize: 30),
+        titleTextStyle: const TextStyle(fontSize: 30),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(10),
